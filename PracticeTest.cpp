@@ -19,7 +19,7 @@ TEST(PracticeTest, smoke_test)
     ASSERT_TRUE(true);
 }
 
-TEST(Practice, zzz_test)
+TEST(PracticeTest, zzz_test)
 {
     Practice prc;
     
