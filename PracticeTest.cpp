@@ -19,9 +19,9 @@ TEST(PracticeTest, smoke_test)
     ASSERT_TRUE(true);
 }
 
-TEST(SetUp, smoke_test)
+TEST(PracticeTest, zzz_test)
 {
     PracticeTest prc;
     
-    ASSERT_EQ(prc.SetUp());
+    ASSERT_EQ(prc.isPalindrome("zzz"));
 }
