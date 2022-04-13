@@ -23,5 +23,5 @@ TEST(PracticeTest, zzz_test)
 {
     PracticeTest prc;
     
-    ASSERT_EQ(prc.isPalindrome("zzz"));
+    ASSERT_EQ(prc.isPalindrome("zzz"),3);
 }
