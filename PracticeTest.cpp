@@ -30,9 +30,9 @@ TEST(PracticeTest, smoke_test)
 TEST(PracticeTest, zzz_test)
 {
 	Practice prc;
-	int a=1;
-	int b=2;
-	int c=3;
+	int a=5;
+	int b=5;
+	int c=5;
 	bool t=true;
 	prc.sortDescending(a,b,c);
 	ASSERT_EQ(a,3);
