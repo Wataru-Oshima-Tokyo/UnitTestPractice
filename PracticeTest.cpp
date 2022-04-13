@@ -30,14 +30,14 @@ TEST(PracticeTest, smoke_test)
 TEST(PracticeTest, zzz_test)
 {
 	Practice prc;
-	int a=5;
-	int b=5;
+	int a=3;
+	int b=4;
 	int c=5;
 	bool t=true;
 	prc.sortDescending(a,b,c);
-	ASSERT_EQ(a,3);
-	ASSERT_EQ(b,2);
-	ASSERT_EQ(c,1);
+	ASSERT_EQ(a,5);
+	ASSERT_EQ(b,4);
+	ASSERT_EQ(c,3);
 
 
 	ASSERT_EQ(prc.isPalindrome("zzz"),t);
