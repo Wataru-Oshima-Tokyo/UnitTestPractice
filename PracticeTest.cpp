@@ -33,12 +33,13 @@ TEST(PracticeTest, zzz_test)
 	int a=1;
 	int b=2;
 	int c=3;
+	bool t=true;
 	prc.sortDescending(a,b,c);
 	ASSERT_EQ(a,3);
 	ASSERT_EQ(b,2);
 	ASSERT_EQ(c,1);
 
 
-	ASSERT_EQ(prc.isPalindrome("zzz"),1);
+	ASSERT_EQ(prc.isPalindrome("zzz"),t);
 // 	ASSERT_EQ(prc.isPalindrome("zzz"),1);
 }
