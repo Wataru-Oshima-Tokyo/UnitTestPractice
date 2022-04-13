@@ -18,3 +18,10 @@ TEST(PracticeTest, smoke_test)
 {
     ASSERT_TRUE(true);
 }
+
+TEST(SetUp, smoke_test)
+{
+    PracticeTest prc;
+    
+    ASSERT_EQ(prc.SetUp());
+}
