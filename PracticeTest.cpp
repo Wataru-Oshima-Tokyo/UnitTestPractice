@@ -40,7 +40,7 @@ TEST(PracticeTest, zzz_test)
 	ASSERT_EQ(b,5);
 	ASSERT_EQ(c,4);
 	ASSERT_EQ(prc.count_starting_repeats(""),0);
-
+	ASSERT_EQ(prc.count_starting_repeats(""),1);
 
 	ASSERT_EQ(prc.isPalindrome("zawwAz"),t);
 	ASSERT_EQ(prc.isPalindrome("galkjgalsklal"),!t);
