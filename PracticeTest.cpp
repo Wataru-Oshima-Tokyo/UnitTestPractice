@@ -22,12 +22,14 @@ class PracticeTest : public ::testing::Test
 */
 
 
-TEST(PracticeTest, smoke_test)
+
+TEST(PracticeTest, isPalindrome_test)
 {
-    ASSERT_TRUE(true);
+	Practice prc;
+    ASSERT_EQ(prc.isPalindrome("zawwAz"),true);
 }
 
-TEST(PracticeTest, zzz_test)
+TEST(PracticeTest, sorting_fail_test)
 {
 	Practice prc;
 	int a=4;
@@ -39,10 +41,30 @@ TEST(PracticeTest, zzz_test)
 	ASSERT_EQ(a,5);
 	ASSERT_EQ(b,5);
 	ASSERT_EQ(c,4);
-	ASSERT_EQ(prc.count_starting_repeats(""),0);
-	ASSERT_EQ(prc.count_starting_repeats(""),1);
 
-	ASSERT_EQ(prc.isPalindrome("zawwAz"),t);
-	ASSERT_EQ(prc.isPalindrome("galkjgalsklal"),!t);
+	// ASSERT_EQ(prc.count_starting_repeats(""),0);
+
+
+	// ASSERT_EQ(prc.count_starting_repeats(""),1);
+
+	// ASSERT_EQ(prc.isPalindrome("zawwAz"),t);
+	// ASSERT_EQ(prc.isPalindrome("galkjgalsklal"),!t);
 
 }
+
+
+TEST(PracticeTest, sorting_success_test)
+{
+	Practice prc;
+	int x=3;
+	int y=2;
+	int z=1;
+	prc.sortDescending(x,y,z);
+	ASSERT_EQ(x,3);
+	ASSERT_EQ(y,2);
+	ASSERT_EQ(z,1);
+
+}
+
+
+
